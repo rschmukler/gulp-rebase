@@ -30,6 +30,7 @@ function beginningPath(count) {
 
 function endingPath(count) {
   return function(file) {
-    file.base = file.base.split(delim).slice(-1 * count).join(delim);
+    var path = file.base.split(delim);
+    file.base = path.slice(0, -1 * count).join(delim);
   };
 }

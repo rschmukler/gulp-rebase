@@ -23,7 +23,7 @@ npm install gulp-rebase
 ```js
   gulp.src('some/path/**/*.js')
   .pipe(rebase('2$'));
-  // Would convert /this/path/here => /path/here
+  // Would convert /this/path/here/is/long => /this/path/here
 ```
 
 #### Explicit overwrite

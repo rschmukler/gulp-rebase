@@ -20,8 +20,8 @@ describe('gulp-rebase', function() {
   });
 
   it('does end-based modification', function(done) {
-    testRebase('2$', function(file) {
-      expect(file.base).to.be(join('is', 'fake'));
+    testRebase('1$', function(file) {
+      expect(file.base).to.be(join('this', 'path', 'is'));
       done();
     });
   });
