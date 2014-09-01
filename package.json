@@ -1,0 +1,31 @@
+{
+  "name": "gulp-rebase",
+  "version": "0.1.0",
+  "description": "Adjust the base directory of a gulp file",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rschmukler/gulp-rebase"
+  },
+  "keywords": [
+    "gulp",
+    "rebase",
+    "gulp-plugin"
+  ],
+  "author": "Ryan Schmukler <ryan@slingingcode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rschmukler/gulp-rebase/issues"
+  },
+  "homepage": "https://github.com/rschmukler/gulp-rebase",
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~1.21.4"
+  },
+  "dependencies": {
+    "through2": "~0.6.1"
+  }
+}
