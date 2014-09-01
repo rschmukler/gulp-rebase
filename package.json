@@ -1,6 +1,6 @@
 {
   "name": "gulp-rebase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adjust the base directory of a gulp file",
   "main": "index.js",
   "scripts": {
